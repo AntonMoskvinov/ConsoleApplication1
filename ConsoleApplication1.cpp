@@ -4,13 +4,11 @@
 
 using namespace std;
 
-// Основная функция для измерения прошедшего времени программы C++
-// используем библиотеку Chrono
+
 int main()
 {
     auto start = chrono::steady_clock::now();
 
-    // делаем здесь что-нибудь
     sleep(3);
 
     auto end = chrono::steady_clock::now();
